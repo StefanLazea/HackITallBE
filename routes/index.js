@@ -9,7 +9,7 @@ router.get("/products", async (req, res) => {
     catch (err) {
         return res.status(409).send({ message: "No elements found in the database" });
     }
-    return res.status(200).send(productsFound);
+    return res.status(200).send({ products: productsFound });
 });
 
 router.post("/products", async (req, res) => {
