@@ -8,6 +8,8 @@ const cors = require('cors');
 const PORT = 3005;
 
 app.use(bodyParser.json());
+app.use(cors());
+
 // model.sequelize.sync({ force: true });
 model.sequelize.sync();
 
