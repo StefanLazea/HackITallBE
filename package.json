@@ -18,7 +18,10 @@
   "homepage": "https://github.com/StefanLazea/hackitall#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "save": "^2.4.0"
+    "mysql2": "^2.1.0",
+    "save": "^2.4.0",
+    "sequelize": "^5.21.5"
   }
 }
