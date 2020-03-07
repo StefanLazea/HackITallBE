@@ -12,7 +12,6 @@ app.use(cors());
 
 // model.sequelize.sync({ force: true });
 model.sequelize.sync();
-console.log(__dirname)
 app.use("/", express.static('../HackITallFE/dist/HackITallFE'));
 
 app.use("/api", routes);
